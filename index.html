@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Interactive Photo Gallery</h1>
+        <p>Explore the gallery using your mouse or keyboard.</p>
+    </header>
+
+    <main>
+
+        <div id="image" role="status" aria-live="polite">
+            Hover over or focus on an image below to display here.
+        </div>
+
+        <section class="gallery" aria-label="Photo gallery">
+
+            <figure>
+                <img src="https://picsum.photos/id/1015/500/350"
+                     alt="Beautiful mountain landscape">
+                <figcaption>Mountain Landscape</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/id/1016/500/350"
+                     alt="Green forest with tall trees">
+                <figcaption>Green Forest</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/id/1018/500/350"
+                     alt="Mountain scenery with a river">
+                <figcaption>River and Mountains</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/id/1020/500/350"
+                     alt="Wild animal in its natural environment">
+                <figcaption>Wildlife</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/id/1024/500/350"
+                     alt="Portrait of a dog">
+                <figcaption>Animal Portrait</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/id/1035/500/350"
+                     alt="Beautiful lake surrounded by nature">
+                <figcaption>Beautiful Lake</figcaption>
+            </figure>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Interactive Photo Gallery - JavaScript Project</p>
+    </footer>
+
+</body>
+</html>
